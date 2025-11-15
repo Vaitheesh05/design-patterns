@@ -7,7 +7,7 @@ package designpatterns.creationalpattern.singleton;
  * <h2>Implementation Details</h2>
  * <ul>
  *     <li><b>Private Constructor:</b> Prevents direct instantiation.</li>
- *     <li><b>`volatile` Static Instance:</b> The `INSTANCE` variable is declared as `volatile`. This is crucial to ensure that changes to this variable are immediately visible to all threads. Without `volatile`, a thread might see a partially constructed instance, leading to subtle bugs.</li>
+ *     <li><b>`volatile` Static Instance:</b> The `INSTANCE` variable is declared as `volatile`. When we named as 'volatile' it will first directly into the memory. This is crucial to ensure that changes to this variable are immediately visible to all threads. Without `volatile`, a thread might see a partially constructed instance, leading to subtle bugs.</li>
  *     <li><b>`synchronized` Block:</b> Synchronization is only applied when the instance is null. This avoids the performance penalty of synchronization on every call once the instance has been created.</li>
  *     <li><b>Double Check:</b> The `INSTANCE == null` check is performed twice. The first check is outside the synchronized block to avoid the overhead of synchronization if the instance is already created. The second check is inside the synchronized block to prevent multiple threads from creating the instance simultaneously if they all pass the first check.</li>
  * </ul>
