@@ -1,6 +1,6 @@
 package designpatterns.creationalpattern.restaurantapp.service;
 
-import com.example.designpatterns.creationalpattern.restaurantapp.model.Meal;
+import designpatterns.creationalpattern.restaurantapp.model.Meal;
 import java.util.HashMap;
 import java.util.Map;
 

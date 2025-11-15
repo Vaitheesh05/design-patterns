@@ -1,7 +1,7 @@
 package designpatterns.creationalpattern.restaurantapp.kitchen;
 
-import com.example.designpatterns.creationalpattern.restaurantapp.kitchen.ingredients.Taco;
-import com.example.designpatterns.creationalpattern.restaurantapp.kitchen.ingredients.Churro;
+import designpatterns.creationalpattern.restaurantapp.kitchen.ingredients.Taco;
+import designpatterns.creationalpattern.restaurantapp.kitchen.ingredients.Churro;
 
 /**
  * ## Abstract Factory Pattern ##

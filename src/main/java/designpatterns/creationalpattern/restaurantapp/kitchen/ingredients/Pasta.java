@@ -1,6 +1,6 @@
 package designpatterns.creationalpattern.restaurantapp.kitchen.ingredients;
 
-import com.example.designpatterns.creationalpattern.restaurantapp.kitchen.MainCourse;
+import designpatterns.creationalpattern.restaurantapp.kitchen.MainCourse;
 
 public class Pasta implements MainCourse {
     @Override
